@@ -1,0 +1,39 @@
+.login #login h1 a {
+    background-image: url("./img/login.svg");
+}
+
+body {
+    background-color: white;
+}
+
+#loginform {
+    border-radius: 3px;
+    border: none;
+    box-shadow: 3px 3px 3px 3px #f7f7f7;
+}
+
+#wp-submit {
+    background-image: linear-gradient(to bottom right, #f17137, #fbc211);
+    color: white;
+    border-radius: 7px;
+}
+
+#wp-submit:focus {
+    opacity: 50%;
+    box-shadow: none;
+}
+
+#user_login, #user_pass, #rememberme, #wp-submit {
+    border: 1px solid #f7f7f7;
+}
+
+.privacy-policy-link {
+    display: none;
+}
+
+.message {
+    border-left: 4px solid #f59615!important;
+}
+.dashicons-visibility {
+    color: #424242;
+}

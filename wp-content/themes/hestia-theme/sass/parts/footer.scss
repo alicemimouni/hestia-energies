@@ -1,0 +1,79 @@
+body {
+
+    .bloc-page {
+
+        footer {
+
+            background: no-repeat url("img/background-waves-footer.svg");
+            background-size: cover;
+            padding-bottom: 3rem;
+            padding-top: 4rem;
+            
+        
+            //CONTENU
+            // ######
+            .footer-content {
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+        
+                @media screen and (min-width: 600px) {
+
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 100%;
+                    max-width: 916px;
+                }
+        
+                address {
+
+                    a:hover {
+
+                        color: $color-secondary;
+                    }
+                }
+        
+                .menu-footer {
+
+                    @media screen and (min-width: 600px) {
+
+                        margin-top: 3rem;
+                        margin-left: 4rem;
+                    }
+        
+                    .menu {
+
+                        padding: 0;
+        
+                        li {
+                            a {
+                                color: $color-secondary;
+                            }
+                        }
+        
+                        #menu-item-199 {
+
+                            a {
+                                color: $color-primary;
+                            }
+                        }
+                    }
+                }
+        
+                z-index: 0;
+        
+                p {
+                    margin: 0;
+                }
+        
+                p:first-child {
+
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

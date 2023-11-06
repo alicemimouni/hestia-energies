@@ -1,0 +1,27 @@
+body {
+
+    .bloc-page {
+
+        .section-actualite {
+        
+            padding: 5rem 1rem;
+        
+            img {
+        
+                width: 100%;
+                border-radius: 3px;
+            }
+        
+            .container {
+        
+                max-width: 700px;
+        
+                h2 {
+                    font-size: 2.5rem;
+                   color: $color-primary;
+                }
+            }
+        
+        }
+    }
+}
