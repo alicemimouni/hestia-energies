@@ -21,3 +21,4 @@ J'ai également ajouté quelques plugins que j'ai créé moi même.
 ## Conclusion
 
 Ce projet, réalisé en 2021 est mon premier projet WordPress. Il m'aura permis de prendre en main ce CMS et de réaliser des **thèmes sur mesure** ainsi que des **plugins**.
+Voir le détail du projet dans [le dossier projet](https://alicemimouni.github.io/dossier-projet-alice-mimouni.pdf#page=6)
